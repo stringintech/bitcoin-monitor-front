@@ -69,10 +69,10 @@ export default function AppNavbar() {
             </Typography>
           </Stack>
           <ColorModeIconDropdown />
-          <MenuButton aria-label="menu" onClick={toggleDrawer(true)}>
-            <MenuRoundedIcon />
-          </MenuButton>
-          <SideMenuMobile open={open} toggleDrawer={toggleDrawer} />
+          {/*<MenuButton aria-label="menu" onClick={toggleDrawer(true)}>*/}
+          {/*  <MenuRoundedIcon />*/}
+          {/*</MenuButton>*/}
+          {/*<SideMenuMobile open={open} toggleDrawer={toggleDrawer} />*/}
         </Stack>
       </Toolbar>
     </AppBar>
