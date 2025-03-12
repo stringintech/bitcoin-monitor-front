@@ -24,7 +24,7 @@ export default function CustomizedDataGrid() {
         const fetchPeerData = async () => {
             try {
                 // Replace with your actual API endpoint
-                const response = await fetch('http://45.61.133.125:4444/peers');
+                const response = await fetch('https://bitcoin-monitor-flare.stringintech.workers.dev/peers');
 
                 if (!response.ok) {
                     throw new Error(`API request failed with status ${response.status}`);
