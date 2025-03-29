@@ -18,6 +18,7 @@ import {
   datePickersCustomizations,
   treeViewCustomizations,
 } from './theme/customizations';
+import BlockExplorer from './components/BlockExplorer';
 
 const xThemeComponents = {
   ...chartsCustomizations,
@@ -54,6 +55,7 @@ export default function Dashboard(props: { disableCustomTheme?: boolean }) {
             }}
           >
             <Header />
+            <BlockExplorer />
             <MainGrid />
           </Stack>
         </Box>
