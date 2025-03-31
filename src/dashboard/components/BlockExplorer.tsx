@@ -101,10 +101,10 @@ export default function BlockExplorer() {
       {/* <Card variant="outlined" sx={{ mb: 2 }}> */}
         {/* <CardContent> */}
           <Typography component="h1" variant="h5" gutterBottom>
-            Block Explorer
+            Block Transaction Propagation Timeline
           </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-            Tracking mempool transaction visibility
+          <Typography variant="body2" color="text.secondary" sx={{ mb: 2, textAlign: 'left' }}>
+            Shows the number of block transactions known to our node at regular intervals before the block was received. While we can't determine exactly when a miner solved the block or how long network propagation took, this timeline reveals whether our node had advance knowledge of transactions, helping diagnose network connectivity issues or identify blocks containing unusual transaction sets not previously broadcast to the network.
           </Typography>
         {/* </CardContent> */}
       {/* </Card> */}
